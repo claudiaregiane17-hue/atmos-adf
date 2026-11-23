@@ -1,0 +1,9 @@
+{
+	"name": "pl-ingest-crossing-landing-dev",
+	"properties": {
+		"folder": {
+			"name": "Visualcrossing"
+		},
+		"annotations": []
+	}
+}
