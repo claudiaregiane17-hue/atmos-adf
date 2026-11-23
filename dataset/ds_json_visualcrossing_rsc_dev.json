@@ -23,11 +23,7 @@
 		"type": "Json",
 		"typeProperties": {
 			"location": {
-				"type": "HttpServerLocation",
-				"relativeUrl": {
-					"value": "@concat(dataset().city, '/', dataset().date, '?unitGroup=metric&include=days&key=', dataset().apiKey)",
-					"type": "Expression"
-				}
+				"type": "HttpServerLocation"
 			}
 		},
 		"schema": {}
